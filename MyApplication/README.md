@@ -5,8 +5,7 @@
 ![run2](https://github.com/525642022/CustomSeekBar/blob/master/MyApplication/Screenshot/run1.png)
 ![run2](https://github.com/525642022/CustomSeekBar/blob/master/MyApplication/Screenshot/run2.png)  
 使用方法
-横向
-
+    横向
       <com.example.customseekbar.CustomHorizontalSeekBar
         android:id="@+id/customHorizontalSeekBar2"
         android:layout_below="@+id/customHorizontalSeekBar1"

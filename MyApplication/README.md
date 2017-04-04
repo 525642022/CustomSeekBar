@@ -115,7 +115,7 @@
         <attr name="custom_text_size" format="dimension|reference" />
         <!-- 进度 -->
         <attr name="custom_progress" format="float|reference" />
-        <!--拖动条字体显示位置, default: sides-->
+        <!--拖动条字体显示位置, default: bottom_text-->
         <attr name="custom_text_style">
             <enum name="bottom_text" value="0" />
             <enum name="top_text" value="1" />

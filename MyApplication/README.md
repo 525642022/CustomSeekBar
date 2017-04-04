@@ -1,19 +1,22 @@
 
 " 这是我的第一个开源作品，一个很实用的自定义seekbar，希望获得大家的支持，里面可能也会有一些不足望大家指正" 
 "还没学会做gif只能先上两张截图"
+
 ![run2](https://github.com/525642022/CustomSeekBar/blob/master/MyApplication/Screenshot/run1.png)
 ![run2](https://github.com/525642022/CustomSeekBar/blob/master/MyApplication/Screenshot/run2.png)  
 使用方法
 横向
-   <com.example.customseekbar.CustomHorizontalSeekBar
-        android:id="@+id/customHorizontalSeekBar1"
+
+      <com.example.customseekbar.CustomHorizontalSeekBar
+        android:id="@+id/customHorizontalSeekBar2"
+        android:layout_below="@+id/customHorizontalSeekBar1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         app:custom_complete_color="@color/customCompleteColor"
         app:custom_count="7"
-        app:custom_down_move="true"
+        app:custom_down_move="false"
         app:custom_height="5dp"
         app:custom_incomplete_color="@color/customInCompleteColor"
         app:custom_max="50"
@@ -21,7 +24,7 @@
         app:custom_text_color="@color/customTextColor"
         app:custom_text_size="18sp"
         app:custom_text_space="5dp"
-        app:custom_text_style="top_text"
+        app:custom_text_style="bottom_text"
         app:custom_thumb_color="@color/customThumbColor"
         app:custom_thumb_radius="6dp"
         />

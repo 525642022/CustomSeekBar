@@ -72,20 +72,20 @@
         />
 
     在代码中设置
-    customSeekbar.getConfigBuilder()
-    .mMax(50)
-    .mMin(10)
-    .mHeight(8)
-    .mInCompleteColor(ContextCompat.getColor(this,R.color.yellow))
-    .mTextColor(ContextCompat.getColor(this,R.color.green))
-    .mTextSize(18)
-    .mTextSpace(10)
-    .mTextStyle(BaseCustomSeekBar.TextStyle.TOP_TEXT)
-    .isDownMove(true)
-    .mThumbColor(ContextCompat.getColor(this,R.color.pink))
-    .mCount(6)
-    .mThumbRadius(9)
-    .build()
+        customSeekbar.getConfigBuilder()
+        .mMax(50)
+        .mMin(10)
+        .mHeight(8)
+        .mInCompleteColor(ContextCompat.getColor(this,R.color.yellow))
+        .mTextColor(ContextCompat.getColor(this,R.color.green))
+        .mTextSize(18)
+        .mTextSpace(10)
+        .mTextStyle(BaseCustomSeekBar.TextStyle.TOP_TEXT)
+        .isDownMove(true)
+        .mThumbColor(ContextCompat.getColor(this,R.color.pink))
+        .mCount(6)
+        .mThumbRadius(9)
+        .build()
 
     自定义属性和注释
      <declare-styleable name="CustomSeekBar">

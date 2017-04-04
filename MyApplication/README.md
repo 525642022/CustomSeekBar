@@ -105,7 +105,6 @@
         <attr name="custom_incomplete_color" format="color|reference" />
         <!--拖动条颜色  -->
         <attr name="custom_thumb_color" format="color|reference" />
-        】
         <!--字体颜色  -->
         <attr name="custom_text_color" format="color|reference" />
         <!--是否点击可以移动 默认为 false-->

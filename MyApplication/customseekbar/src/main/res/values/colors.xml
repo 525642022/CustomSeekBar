@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="customCompleteColor">#FF4081</color>
+    <color name="customInCompleteColor">#05AAF5</color>
+    <color name="customThumbColor">#FF00FF</color>
+    <color name="customTextColor">#303F9F</color>
+
+
+</resources>

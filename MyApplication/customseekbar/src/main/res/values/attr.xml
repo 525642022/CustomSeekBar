@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomSeekBar">
+        <!-- 最小值 默认为 0.0f-->
+        <attr name="custom_min" format="float|reference" />
+        <!-- 最大值 默认为 100.0f-->
+        <attr name="custom_max" format="float|reference" />
+        <!-- 线高度 默认为 10dp-->
+        <attr name="custom_height" format="dimension|reference" />
+        <!-- 拖动条半径 默认为 11dp-->
+        <attr name="custom_thumb_radius" format="dimension|reference" />
+        <!--间隔数 -->
+        <attr name="custom_count" format="integer|reference" />
+        <!--已完成颜色 -->
+        <attr name="custom_complete_color" format="color|reference" />
+        <!--未完成颜色  -->
+        <attr name="custom_incomplete_color" format="color|reference" />
+        <!--拖动条颜色  -->
+        <attr name="custom_thumb_color" format="color|reference" />
+        】
+        <!--字体颜色  -->
+        <attr name="custom_text_color" format="color|reference" />
+        <!--是否点击可以移动 默认为 false-->
+        <attr name="custom_down_move" format="boolean" />
+        <!-- 字体与拖动条距离 默认为 5dp-->
+        <attr name="custom_text_space" format="dimension|reference" />
+        <!-- 字体大小 默认为 14sp-->
+        <attr name="custom_text_size" format="dimension|reference" />
+        <!-- 进度 -->
+        <attr name="custom_progress" format="float|reference" />
+        <!--拖动条字体显示位置, default: sides-->
+        <attr name="custom_text_style">
+            <enum name="bottom_text" value="0" />
+            <enum name="top_text" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

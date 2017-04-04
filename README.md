@@ -1,12 +1,14 @@
 
-" 这是我的第一个开源作品，一个很实用的自定义seekbar，希望获得大家的支持，里面可能也会有一些不足望大家指正" 
+"这是我的第一个开源作品，一个很实用的自定义seekbar，希望获得大家的支持，里面可能也会有一些不足望大家指正" 
 "还没学会做gif只能先上两张截图"
 
-![run2](https://github.com/525642022/CustomSeekBar/blob/master/MyApplication/Screenshot/run1.png)
+![run1](https://github.com/525642022/CustomSeekBar/blob/master/MyApplication/Screenshot/run1.png)
 ![run2](https://github.com/525642022/CustomSeekBar/blob/master/MyApplication/Screenshot/run2.png)  
 使用方法
+
     横向
-         <com.example.customseekbar.CustomVerticalSeekBar
+
+        <com.example.customseekbar.CustomVerticalSeekBar
         android:id="@+id/CustomVerticalSeekBar1"
         android:layout_width="75dp"
         android:layout_height="match_parent"

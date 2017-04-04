@@ -7,13 +7,10 @@
 使用方法
 
     横向
-    
+
         <com.example.customseekbar.CustomVerticalSeekBar
-
         android:id="@+id/CustomVerticalSeekBar1"
-
         android:layout_width="75dp"
-
         android:layout_height="match_parent"
 
         android:paddingTop="20dp"

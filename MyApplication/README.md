@@ -1,2 +1,3 @@
-" 一个很实用的自定义seekbar 欢迎大家使用 star和pull" /n
+" 一个很实用的自定义seekbar 欢迎大家使用 star和pull" 
+
 ![run2](https://github.com/525642022/CustomSeekBar/blob/master/MyApplication/Screenshot/run2.png)  

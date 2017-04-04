@@ -5,7 +5,9 @@
 ![run1](https://github.com/525642022/CustomSeekBar/blob/master/MyApplication/Screenshot/run1.png)
 ![run2](https://github.com/525642022/CustomSeekBar/blob/master/MyApplication/Screenshot/run2.png)  
 使用方法
+
     横向
+    
         <com.example.customseekbar.CustomVerticalSeekBar
 
         android:id="@+id/CustomVerticalSeekBar1"
@@ -45,7 +47,7 @@
         app:custom_thumb_color="@color/customThumbColor"
 
         app:custom_thumb_radius="6dp"
-        
+
         />
 
     纵向

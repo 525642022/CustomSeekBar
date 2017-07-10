@@ -8,7 +8,7 @@
 
     横向
 
-        <com.example.customseekbar.CustomVerticalSeekBar
+        <com.example.customseekbar.CustomHorizontalSeekBar
         android:id="@+id/CustomVerticalSeekBar1"
         android:layout_width="75dp"
         android:layout_height="match_parent"
